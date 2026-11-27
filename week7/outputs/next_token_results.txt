@@ -1,0 +1,17 @@
+NEXT-TOKEN PROBABILITY ANALYSIS
+==================================================
+Model: distilbert/distilgpt2
+Prompt: Artificial intelligence is
+Input Token IDs: [[8001, 9542, 4430, 318]]
+Logits Shape: (1, 4, 50257)
+Vocabulary Size: 50257
+
+Top 5 Next-Token Candidates:
+--------------------------------------------------
+1       ' a'                -61.6161       16.4362       %
+2       ' the'              -62.5265       6.6132        %
+3       ' not'              -62.8330       4.8673        %
+4       ' one'              -63.1133       3.6778        %
+5       ' an'               -63.1564       3.5226        %
+
+Most probable next token: ' a'
